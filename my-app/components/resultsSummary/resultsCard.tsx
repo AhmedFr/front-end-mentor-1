@@ -1,6 +1,6 @@
-import { Score } from "@/components/score";
-import { Category } from "@/components/category";
-import { Button } from "@/components/button";
+import { Score } from "@/components/resultsSummary/score";
+import { Category } from "@/components/resultsSummary/category";
+import { Button } from "@/components/resultsSummary/button";
 import { BiBrain, BiBoltCircle, BiChat, BiShow } from "react-icons/bi";
 
 const categories = [

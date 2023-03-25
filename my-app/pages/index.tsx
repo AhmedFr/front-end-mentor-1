@@ -1,9 +1,11 @@
-import { ResultsCard } from "@/components/resultsCard"
+import { ProductCard } from "@/components/productCard/productCard"
+import { ResultsCard } from "@/components/resultsSummary/resultsCard"
 
 export default function Home() {
   return (
-    <div className="pt-32 flex justify-center">
+    <div className="py-32 space-y-32 flex flex-col items-center">
       <ResultsCard />
+      <ProductCard />
     </div>
   )
 }
